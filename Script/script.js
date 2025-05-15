@@ -107,7 +107,7 @@ function renderCarss(cari) {
                     </div>
                     <span class="span"><ion-icon name="heart-outline"></ion-icon></span>
                 </div>
-                <div class="img-url">
+                <div class="img-urls">
                     <img class="img-e" src="${car.img}" alt="">
                 </div>
                 <div class="Mirual">

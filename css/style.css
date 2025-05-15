@@ -309,7 +309,14 @@ header .top-m {
 .section-2 .infor .img-url {
   display: flex;
   margin-top: 25%;
-  margin-bottom: 55px;
+  margin-bottom: 59px;
+  align-items: center;
+  justify-content: center;
+}
+.section-2 .infor .img-urls {
+  display: flex;
+  margin-top: 20%;
+  margin-bottom: 40px;
   align-items: center;
   justify-content: center;
 }
@@ -362,26 +369,24 @@ header .top-m {
   align-items: center;
   justify-content: space-between;
 }
-
-.section-3 {
-  height: 100%;
-  padding: 40px 89px;
-  background: #f6f7f9;
+.section-2 .infor .loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
 }
-.section-3 .fs {
-  display: flex;
-  padding-bottom: 3%;
-  align-items: center;
-  justify-content: space-between;
+.section-2 .infor .infor {
+  display: none;
 }
-.section-3 .fs .fp {
-  font-size: 20px;
-  font-weight: 600;
-  color: var(--Secondary-300, #90a3bf);
-}
-.section-3 .fs .ap {
-  font-weight: 600;
-  color: var(--Primary-500, #3563e9);
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media (max-width: 900px) {

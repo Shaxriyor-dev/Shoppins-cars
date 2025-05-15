@@ -179,7 +179,7 @@ header {
     background: #ffffff;
     box-shadow: 1px 2px 3px #e4e5e6;
   }
-  .wroaps{
+  .wroaps {
     gap: 30px;
     display: flex;
     align-items: center;
@@ -244,6 +244,167 @@ header {
   }
 }
 
+.section-2 {
+  height: 100%;
+  padding: 40px 89px;
+  background: #f6f7f9;
+  .fs {
+    display: flex;
+    padding-bottom: 3%;
+    align-items: center;
+    justify-content: space-between;
+
+    .fp {
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--Secondary-300, #90a3bf);
+    }
+    .ap {
+      font-weight: 600;
+      color: var(--Primary-500, #3563e9);
+    }
+  }
+  .infor {
+    gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .app {
+      width: 305px;
+      height: 388px;
+      padding: 24px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.4s ease;
+      transform: scale(1);
+      cursor: pointer;
+    }
+    .app:hover {
+      transform: scale(1.05);
+    }
+    .span {
+      font-size: 28px;
+    }
+    .span:hover {
+      color: red;
+    }
+    .erons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .op {
+      color: var(--Secondary-500, #1a202c);
+      font-family: "Plus Jakarta Sans";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      letter-spacing: -0.6px;
+    }
+    .we {
+      color: var(--Secondary-300, #90a3bf);
+      font-family: "Plus Jakarta Sans";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      letter-spacing: -0.28px;
+    }
+    .img-url {
+      display: flex;
+      margin-top: 25%;
+      margin-bottom: 55px;
+      align-items: center;
+      justify-content: center;
+    }
+    .Mirual {
+      gap: 16px;
+      display: flex;
+      margin-bottom: 24px;
+      justify-content: center;
+      align-items: center;
+    }
+    .gazs {
+      gap: 6px;
+      display: flex;
+      align-items: center;
+    }
+    .azo {
+      color: var(--Secondary-300, #90a3bf);
+      font-family: "Plus Jakarta Sans";
+      font-size: 13px;
+      letter-spacing: -0.28px;
+    }
+    .money {
+      color: var(--Secondary-500, #1a202c);
+      font-family: "Plus Jakarta Sans";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .days {
+      color: var(--Secondary-300, #90a3bf);
+      font-family: "Plus Jakarta Sans";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .btn-2 {
+      width: 116px;
+      height: 44px;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 4px;
+      border: solid #3563e9;
+      font-family: "Plus Jakarta Sans";
+      background: var(--Primary-500, #3563e9);
+    }
+    .nerx {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+
+
+.section-3 {
+  height: 100%;
+  padding: 40px 89px;
+  background: #f6f7f9;
+  .fs {
+    display: flex;
+    padding-bottom: 3%;
+    align-items: center;
+    justify-content: space-between;
+
+    .fp {
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--Secondary-300, #90a3bf);
+    }
+    .ap {
+      font-weight: 600;
+      color: var(--Primary-500, #3563e9);
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 900px) {
   .item {
     width: 100%;
@@ -288,28 +449,27 @@ header {
     height: 86px;
   }
 
-  .select{
-
-      .hero {
-     width: 100%;
-    height: 320px;
-
-     .text-1{
-    width: 100%;
-    font-size: 25px;
-  }
-    .text-2{
-      font-size: 12px;
+  .select {
+    .hero {
       width: 100%;
+      height: 320px;
+
+      .text-1 {
+        width: 100%;
+        font-size: 25px;
+      }
+      .text-2 {
+        font-size: 12px;
+        width: 100%;
+      }
     }
   }
-  }
 
-  .hero_Select{
-    .loaction{
+  .hero_Select {
+    .loaction {
       padding: 20px;
     }
-    .wroaps{
+    .wroaps {
       display: flex;
       justify-content: baseline;
     }
@@ -318,37 +478,41 @@ header {
   .loaction {
     width: 100%;
     height: 100%;
-    .text-6{
-    font-size: 16px;
-  }
-  .loc{
-    font-size: 12px;
-  }
-   .wroap{
-    gap: 0px;
-   }
-   .hr{
-     display: none;
-   }
-   #s{
-    font-size: 10px;
-    width: 100%;
-    flex-wrap: wrap;
-   }
-   #name{
-    font-size: 10px;
-   }
+    .text-6 {
+      font-size: 16px;
+    }
+    .loc {
+      font-size: 12px;
+    }
+    .wroap {
+      gap: 0px;
+    }
+    .hr {
+      display: none;
+    }
+    #s {
+      font-size: 10px;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    #name {
+      font-size: 10px;
+    }
 
-   .wroaps{
-    gap: 0px;
-   }
-
+    .wroaps {
+      gap: 0px;
+    }
   }
- 
-  .btn-1{
+
+  .btn-1 {
     margin-bottom: 10px;
   }
- 
-   
- 
+
+  .infor{
+    padding: 20px 4px;
+      flex-wrap: wrap;
+  }
+  .section-2{
+    padding: 10px;
+  }
 }
